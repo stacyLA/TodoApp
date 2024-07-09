@@ -28,3 +28,6 @@ Route::namespace('App\Http\Controllers')->group(function () {
     Route::get('/grade/marks', 'PageController@grade')->name('grades');
 
     });
+    Route::get('/', function(){
+        return view('stacy');
+    });
