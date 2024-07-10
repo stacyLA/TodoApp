@@ -1,0 +1,1 @@
+<hi>This is the footer section</hi>

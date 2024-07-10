@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    this is Stacy.s creation
-</body>
-</html>
+@extends('layouts.test')
+@section('content')
+<div1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam omnis ea vero laudantium necessitatibus ut in aperiam non, quos aspernatur perferendis at facilis iusto, rerum dolorum quam officia perspiciatis.
+</div1>
+@endsection
