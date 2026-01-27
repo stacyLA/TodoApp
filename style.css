@@ -1,0 +1,67 @@
+h1{
+  text-align: center;
+  color: pink;
+  font-size: 100px;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+
+h3{
+  text-align :center;
+  color: purple;
+  font-size: 60px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+p1{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* apply background to the whole page */
+body {
+  background-image: url("images/nailbg.jpeg"); /* your image name or path */
+  background-size: cover;       /* make it fill the whole page */
+  background-position: center;  /* keep image centered */
+  background-repeat: no-repeat; /* prevent image from repeating */
+  height: 100%;                /* full height of the screen */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;                 /* makes text readable on dark backgrounds */
+  text-align: center;
+  padding-top: 100px;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: -1; /* keeps it behind text */
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  text-align: center;
+
+}
